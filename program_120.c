@@ -43,7 +43,6 @@ int main(void)
     }
 
     int b = get_int("Enter number b: ");
-    
     if (sum < 0)
     {
         sum = 0;
@@ -69,7 +68,7 @@ int main(void)
     {
         maxSum = sum;
     }
-    printf("%d\n", maxSum); 
+    printf("%d\n", maxSum);
 }
 */
 
@@ -89,17 +88,17 @@ int main(void)
     if (a > sum && a > b)
     {
         maxSum = a;
-        
     }
     else if (b > sum && b > a)
     {
         maxSum = b;
     }
-    else 
+    else
     {
         maxSum = sum;
     }
     printf("%d\n", maxSum);
 }
+
 */
 
