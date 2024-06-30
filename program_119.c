@@ -17,6 +17,5 @@ int main(void)
 
     int missing = totalSum - sumActual;
 
-    printf("%d\n", missing);
-    
+    printf("%d\n", missing);   
 }
