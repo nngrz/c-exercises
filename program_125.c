@@ -6,7 +6,6 @@ int fibonacci(int k);
 int main(void)
 {
     int n = get_int("Enter position: ");
-
     int result = fibonacci(n);
     printf("%d\n", result);
     return 0;

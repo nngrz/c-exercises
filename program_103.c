@@ -5,9 +5,7 @@
 #define MAX_N 5
 
 int size;
-
 int numbers[MAX_N][MAX_N];
-
 int sum = 0;
 
 int main(int argc, string argv[])

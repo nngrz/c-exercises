@@ -25,6 +25,7 @@ int main(void)
     }
     printf("%d\n", maxSum);
 }
+
 /*
 // practice with 3 variables
 #include <cs50.h>
